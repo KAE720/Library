@@ -10,30 +10,38 @@
 
 <body>
 
-    <button id="button"> add new book</button>
-    <div id="container">
+<button id="button"> add new book</button>
 
+<div id="parent-container">
+    <form id="form">
+        <label for="title"> TITLE:</label>
+        <input id="title" name="title" type="text" required>
+        <br>
+        <label for="author"> AUTHOR:</label>
+        <input id="author" name="author" type="author" required>
+        <br>
+        <label for="pages"> PAGES:</label>
+        <input id="pages" name="pages" type="number" required>
+        <br>
+        <label for="status"> STATUS:</label>
+        <input id="status" name="status" type="status" required>
+        <br>
+        <button id="addbook" type="button"> Add new book</button>
+    </form>
 
-
-
-            <form  id="form">
-                <label for = "title"> TITLE:</label>
-                <input  id = "title" name="title" type="text">
-                <br>
-                <label for="author"> AUTHOR:</label>
-                <input id = "author"name="author" type="author">
-                    <br>
-                <label for="pages"> PAGES:</label>
-                <input id = "pages" name="pages" type="text">
-                    <br>
-                <label for="status"> STATUS:</label>
-                <input id = "status" name="status" type="status">
-                    <br>
-                <button id="addbook"> Add new book</button>
-            </form>
+    <div id="info">
 
 
     </div>
+
+    <div id="container">
+    </div>
+</div>
+
+
+
+
+
 
 
 
